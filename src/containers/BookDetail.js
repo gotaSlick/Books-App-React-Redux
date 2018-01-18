@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 class BookDetail extends Component {
     render() {
         //initial check if this.props.book doesnt exist yet,
-        //then we return a warm up message
+        //return a warm up message
         if (!this.props.book) {
             return <div>Select a book to get started</div>;
         }
